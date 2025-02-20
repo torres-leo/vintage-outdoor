@@ -11,6 +11,7 @@ interface Props {
 
 function TestimonialCard({ author, img, rating, text }: Props) {
 	const renderStars = () =>
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		Array.from({ length: rating }).map((_) => (
 			<li key={crypto.randomUUID()}>
 				<RiStarSFill className='text-primary text-xl' />
