@@ -14,7 +14,7 @@ function Testimonials() {
 	};
 
 	return (
-		<section>
+		<section id='testimonials'>
 			<div className='max-container'>
 				<Title title={HomeData.Testimonials.title} className='text-5xl text-center mb-9' />
 

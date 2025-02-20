@@ -2,35 +2,35 @@ export const HomeData = {
 	logo: '/vintage-logo.png',
 	links: [
 		{
-			href: '/',
+			href: '#home',
 			label: 'Home',
 		},
 		{
-			href: '/about',
+			href: '#about',
 			label: 'About us',
 		},
 		{
-			href: '/services',
+			href: '#services',
 			label: 'Services',
 		},
 		{
-			href: '/construction',
+			href: '#construction',
 			label: 'Vintage Construction',
 		},
 		{
-			href: '/gallery',
+			href: '#gallery',
 			label: 'Gallery',
 		},
 		{
-			href: '/testimonials',
+			href: '#testimonials',
 			label: 'Testimonials',
 		},
 		{
-			href: '/blog',
+			href: '#blog',
 			label: 'Blog',
 		},
 		{
-			href: '/faqs',
+			href: '#faqs',
 			label: 'FAQS',
 		},
 	],

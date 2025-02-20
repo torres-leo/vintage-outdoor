@@ -5,7 +5,7 @@ import Title from '../UI/Title';
 
 function AboutUs() {
 	return (
-		<section className='py-10 max-container'>
+		<section className='py-10 max-container' id='about'>
 			<div className='flex flex-col gap-y-7'>
 				<div className='flex gap-x-9'>
 					<picture className='relative w-[260px] bg-cover overflow-hidden rounded-3xl'>

@@ -12,7 +12,7 @@ function Blog() {
 	};
 
 	return (
-		<section className='py-20 mb-16'>
+		<section className='py-20 mb-16' id='blog'>
 			<div className='max-container'>
 				<h3 className='text-5xl text-center font-newsreader mb-5'>{HomeData.Blog.title}</h3>
 				<p className='text-center max-w-[590px] w-full mx-auto mb-14'>{HomeData.Blog.text}</p>

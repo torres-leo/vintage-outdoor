@@ -7,7 +7,7 @@ function Gallery() {
 	const [img1, img2, img3, img4, img5] = HomeData.Gallery.images;
 
 	return (
-		<section className='py-20 px-2 lg:px-0 mb-14'>
+		<section className='py-20 px-2 lg:px-0 mb-14' id='gallery'>
 			<div className='max-container'>
 				<div className='flex gap-x-6 items-center'>
 					<div className='w-3/5'>

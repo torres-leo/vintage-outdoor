@@ -43,7 +43,8 @@ function Header({ links, logo }: Props) {
 		<header
 			className={`sticky top-0 z-20 bg-white transition-all duration-75 delay-300 ${
 				isScrolled ? 'min-h-14 bg-white/95 shadow-md shadow-black' : 'min-h-80'
-			}}`}>
+			}}`}
+			id='#home'>
 			<div className='max-container'>
 				<div
 					className={`flex justify-between items-center transition-all duration-75 px-3 lg:px-1 ${
