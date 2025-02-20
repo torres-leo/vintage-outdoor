@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import { HomeData } from '@/data/home';
 import Button from '../UI/Button';
+import Title from '../UI/Title';
 
 function AboutUs() {
 	return (
 		<section className='py-10 max-container'>
 			<div className='flex flex-col gap-y-7'>
 				<div className='flex gap-x-9'>
-					<picture className='relative w-[260px] h-[220px] bg-cover overflow-hidden rounded-3xl'>
+					<picture className='relative w-[260px] bg-cover overflow-hidden rounded-3xl'>
 						<Image
 							src={HomeData.About.img1}
 							className='rounded-3xl scale-[1.85]'
@@ -19,14 +20,17 @@ function AboutUs() {
 					</picture>
 
 					<div className='flex-1'>
-						<h3 className='text-5xl font-medium font-newsreader text-center mb-4'>{HomeData.About.title}</h3>
+						<Title
+							title={HomeData.About.title}
+							className='text-5xl font-medium font-newsreader text-center mb-6 after:w-[250px]'
+						/>
 						<p className='w-[60ch] text-center mx-auto font-inter leading-5 mb-5'>{HomeData.About.subtitle}</p>
 						<p className='py-4 px-7 bg-gray-50 rounded-2xl font-medium font-inter'>{HomeData.About.info.text1}</p>
 					</div>
 				</div>
 
 				<div className='flex gap-x-9'>
-					<picture className='relative w-[260px] h-[190px]'>
+					<picture className='relative w-[260px]'>
 						<Image
 							src={HomeData.About.img2}
 							className='rounded-3xl'
